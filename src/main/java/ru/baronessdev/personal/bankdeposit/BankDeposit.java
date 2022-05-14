@@ -44,7 +44,7 @@ public final class BankDeposit extends JavaPlugin {
                     int commandNum;
                     int numOfIron = Stream.of(player.getInventory().getContents())
                             .filter(Objects::nonNull)
-                            .filter(item -> item.getType() == Material.IRON_INGOT)
+                            .filter(item -> item.getType() == Material.GOLD_INGOT)
                             .mapToInt(ItemStack::getAmount)
                             .sum();
 
