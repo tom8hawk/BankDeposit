@@ -1,0 +1,8 @@
+name: BankDeposit
+version: '${project.version}'
+main: ru.baronessdev.personal.bankdeposit.BankDeposit
+depend: [ Vault ]
+
+commands:
+  bank:
+    usage: /bank deposit [кол-во]
